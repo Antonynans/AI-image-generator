@@ -11,9 +11,9 @@ const Card = ({ _id, name, prompt, photo }) => {
         src={photo}
         alt={prompt}
       />
-      <div className="group-hover:flex flex-col max-h-[94.5%] hidden absolute bottom-0 left-0 right-0 bg-[#10131f] m-2 -4 rounded-md">
-        <p className="text-white text-sm overflow-y-auto prompt">{prompt}</p>
-        <div className="mt-5 flex justify-between items-center gap-2">
+      <div className="group-hover:flex flex-col max-h-[94.5%] hidden absolute bottom-0 left-0 right-0 bg-[#10131f] m-2 rounded-md">
+        <p className="text-white text-sm px-4 py-2 overflow-y-auto prompt">{prompt}</p>
+        <div className="mt-5 flex justify-between items-center gap-2 px-4 py-2">
           <div className="flex items-center gap-2">
             <div className="w-7 h-7 rounded-full object-cover bg-gray-700 flex justify-center items-center text-white text-sm font-bold">
               {name[0]}
